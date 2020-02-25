@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			
+			<title>bootstrap Card(binary-decimal</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+			
+			
+		</head>
+	<body class= bg-warning>
+
+		<div class="container" >
+			<div class="row">
+				<div class= "col-md-5 mx-auto">
+					<div class="card card-body bg-light text-center mt-5" >
+						<h1 class="heading display-5"> 
+							Calculator
+						</h1>
+						<form action="" id= "hello">
+							<div class= "form-group">
+								<div class= "input-group">
+								<span class= "input-group-text text-success">binary#</span>
+								<input type="number" class= "form-control" id = "binary" placeholder="binary number">
+								</div>
+							</div>
+							<div class= "form-group">
+								<div class= "input-group">
+								<span class= "input-group-text text-success">decimal#</span>
+								<input type="number" class= "form-control" id = "decimal" placeholder="decimal number">
+							</div>
+							<div class= "form-group pt-4">
+								<input type= "submit" class= "btn btn-success btn-block" id="button2" value="CalculateDecimal">
+							</div>
+							<div class= "form-group">
+								<input type= "submit" class= "btn btn-success btn-block" id="button1" value="CalculateBinary">
+							</div>
+							<!-- loading area -->
+							<h1 class= "heading display-5">
+								Result
+							</h1>
+							<div class="form-group">
+								<div class="input-group">
+								<span class="input-group-text">Decimal#</span>
+								<input type="number" class="form-control" id= "button" placeholder= "(0)base10" disabled >
+							</div>
+							<div class="form-group pt-4">
+								<div class="input-group">
+								<span class="input-group-text">Binary#</span>
+								<input type="text" class="form-control" id= "bin" placeholder= "(0)base10" disabled >
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src = code.js ></script>
+	</body>
+</html>
